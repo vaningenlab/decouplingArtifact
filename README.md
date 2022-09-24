@@ -24,3 +24,10 @@ I put them now on Github so that anyone can make us of it.
 4. start the simulation by typing the name of the particular main simulation script "sim*xxxx*"
 
 # Short description of scripts
+
+The simulations are based on numerical evalation of the density operator for a 2-spin NH system in Liouville space,  
+as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as secribed in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156)
+The simulations do not include the effect of exchange.
+
+
+
