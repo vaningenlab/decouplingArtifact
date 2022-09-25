@@ -25,11 +25,38 @@ I put them now on Github so that anyone can make us of it.
 
 4. start the simulation by typing the name of the particular main simulation script "sim*xxxx*"
 
+I verified that the scripts work using Mac OS 14 and Octave-app version 6.2.0.
+It should also work under Windows with Octave version 7.2.0.s
+
 # Short description of scripts
 
 The simulations are based on numerical evalation of the density operator for a 2-spin NH system in Liouville space,  
-as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as described in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156)
+as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as described in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156).
 The simulations do not include the effect of exchange.  
 
+simFigure1A		*main script to simulate the results shown in Figure 1A*
+				*comparison of matched 1H CW decoupling and single 1H power value, single train decoupling*
+simFigure1B		*main script to simulate the results shown in Figure 1B*
+				*predicted maximum artifact as function of protein size*
+simFigure1B		*main script to simulate the results shown in Figure 1C*
+				*predicted maximum artifact as function of magnetic field*
+simCPD			*main script to compare different composite pulse decoupling schemes*
+				*not used in the paper*
 
+ini						*initialization script w/ plotting control options*
+definePars*				*definition spin system and CPMG paramaters*
+makePlot*				*plotting file*
+buildRelaxationMatrix	*calculation of relaxation rates based on spin system, based on Helgstrand paper*
+LVM						*Liouvillian propagator matrix, based on Allard paper*
+LVM_CPD					*Liouvillian propagator during 1H CPD decoupling*
+						*w/ extensive checks on proper execution of CPD blocks*
+CPMG_CW					*in-phase 15N CPMG dispersion experiment w/ matched 1H decoupling*
+						*as decribed in Flemming et al 2008 paper*
+CPMG_ST_CW				*in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CW decoupling*
+						*as decribed in Jiang et al 2008 paper*
+CPMG_ST_CPD				*in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CDP decoupling*
+						*as decribed in Chatterjee et al 2018 paper*
+						*CPD can be set to CW, 90-240-90, WALTZ, MLEV, SPA*
+mymod					*custom modulo function used for Zuiderweg phase cycle CPMG*
+Zuidersel				*custom modulo function used for Zuiderweg phase cycle CPMG*
 
