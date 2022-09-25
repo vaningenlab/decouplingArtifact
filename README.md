@@ -1,4 +1,5 @@
 # decouplingArtifact
+
 These are my GNU Octave scripts used for to simulate the 1H decoupling artifact 
 in 15N CPMG experiments as described in the paper:  
 
@@ -16,7 +17,8 @@ I put them now on Github so that anyone can make us of it.
 	b. *Mac users* [octave-app.org](https://octave-app.org)  
 	c. *Linux users* using your package manager  
 
-2. Download my simulations scripts 
+2. Download the simulations scripts 
+
 3. Start octave  
 	a. from the command line in the directory where you saved the simulation scripts  
 	b. as gui, then navigate within the app to the directory where you saved the simulation scripts  
@@ -26,8 +28,8 @@ I put them now on Github so that anyone can make us of it.
 # Short description of scripts
 
 The simulations are based on numerical evalation of the density operator for a 2-spin NH system in Liouville space,  
-as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as secribed in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156)
-The simulations do not include the effect of exchange.
+as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as described in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156)
+The simulations do not include the effect of exchange.  
 
 
 
