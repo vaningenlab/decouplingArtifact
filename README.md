@@ -26,7 +26,7 @@ I put them now on Github so that anyone can make us of it.
 4. start the simulation by typing the name of the particular main simulation script "sim*xxxx*"
 
 I verified that the scripts work using Mac OS 14 and Octave-app version 6.2.0.
-It should also work under Windows with Octave version 7.2.0.s
+It should also work under Windows with Octave version 7.2.0
 
 # Short description of scripts
 
@@ -51,12 +51,14 @@ The simulations do not include the effect of exchange.
 + LVM_CPD | *Liouvillian propagator during 1H CPD decoupling*
   | *w/ extensive checks on proper execution of CPD blocks*.
 + CPMG_CW | *in-phase 15N CPMG dispersion experiment w/ matched 1H decoupling*
-  | *as decribed in Flemming et al 2008 paper*.
+  | *as decribed in [Hansen et al 2008 JPC paper](https://doi.org/10.1021/jp074793o)*.
++ CPMG_CW_fixed | *as CPMG_CW but with fixed 1H power for decoupling*.
 + CPMG_ST_CW | *in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CW decoupling*
-  | *as decribed in Jiang et al 2008 paper*
+  | *as decribed in [Jiang et al 2008 JMR paper](https:dx.doi.org/10.1016/j.jmr.2015.05.003)*.
 + CPMG_ST_CPD | *in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CDP decoupling*
   | *as decribed in Chatterjee et al 2018 paper*
-  | *CPD can be set to CW, 90-240-90, WALTZ, MLEV, SPA*
-+ mymod | *custom modulo function used for Zuiderweg phase cycle CPMG*
-+ Zuidersel | *custom modulo function used for Zuiderweg phase cycle CPMG*
+  | *CPD can be set to CW, 90-240-90, WALTZ, MLEV, SPA*.
++ setupCPD | *definition of different CPD schemes*.
++ mymod | *custom modulo function used for Zuiderweg phase cycle CPMG*.
++ Zuidersel | *custom modulo function used for Zuiderweg phase cycle CPMG*.
 
