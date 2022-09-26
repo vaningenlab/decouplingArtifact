@@ -16,7 +16,7 @@ elseif cpd_type == 1   % 240
     cpd_angle = [90 240  90];                                        % pulse flip angles of each element
 elseif cpd_type == 4   % 27-126-27 Korolova et al 2013
     cpd_phase = [ 3   1  3 ];                                        % phase of each element 0=x 1=y 2=-x 3=-y
-    cpd_angle = [27 126  27 ];                                        % pulse flip angles of each element
+    cpd_angle = [27 126  27 ];                                       % pulse flip angles of each element
 else
     disp("\nAborting, unkown type of CPD block...\n")
     exit

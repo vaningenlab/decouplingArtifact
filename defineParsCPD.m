@@ -12,8 +12,8 @@ cycle_phi2          = 1;    % [0|1] do phase cycling on excite 90 15N no (0) yes
 cycle_phi7          = 1;    % [0|1] do phase cycling on ST-CW numPulses =2 CPMG pulse no (0) yes (1)
 
 % spin system
-JNH     = -92;            % 1JNH [Hz]
-wNppm   = 0/95;         % 15N offset in ppm wrt to 15N carrier, best keep offset at zero.
+JNH     = -92;             % 1JNH [Hz]
+wNppm   = 0/95;            % 15N offset in ppm wrt to 15N carrier, best keep offset at zero.
 wHppm   = 1600/950;        % 1H offset in ppm wrt to 1H CW carrier, this needs to be varied to investigate the effect
 
 % experimental set-up
@@ -22,7 +22,7 @@ pw_90   = 33;                                                   % 15N 90 high po
 pw_dec  = 17;                                                   % 1H 90° decoupling pulse, this needs to be varied to study the effect
 B0      = 22.31;                                                % static magnetic field corresponding to 800 MHz [T]
                                                                 % 500: 11.7434 600: 14.0921 750: 800: 18.789 850: 19.964 950: 22.31 1.2GHz:
-time_T2 = 0.04;                                                % length of CT CPMG relaxation period [s]
+time_T2 = 0.04;                                                 % length of CT CPMG relaxation period [s]
 maxCPMG = 1000;                                                 % maximum CPMG field [Hz]
 tau_eq  = 0.003e-3;	                                            % equilibration time at end of sequence 
 
@@ -44,7 +44,7 @@ gH      = 2.6752e8;         % 1H gyromagnetic ratio [ T-1 s-1]
 gN      = -2.7120e7;        % 15N gyromagnetic ratio [ T-1 s-1]
 hbar    = 1.0546e-34;       % Planck's constant over 2*pi [J s ]
 CSAN    = -172e-6;          % 15N chemical shift anisotropy [ppm]
-CSAH    = 10e-6;             % 1H  chemical shift anisotropy [ppm]  (10 ppm seems to be bit large just as effective as 15N ccr?)
+CSAH    = 10e-6;            % 1H  chemical shift anisotropy [ppm]  (10 ppm seems to be bit large just as effective as 15N ccr?)
 rNH     = 1.02e-10;         % distance N-H [A]
 rHH     = 1.85e-10;         % 1HN - 1Halpha distance [A] (effective value see Jiang paper)
                             % 2.25 A corresponds to 13.7 / 17.1 inphase/antiphase which similar as for  Kay style relaxation

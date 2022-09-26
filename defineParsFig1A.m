@@ -49,7 +49,7 @@ gH      = 2.6752e8;         % 1H gyromagnetic ratio [ T-1 s-1]
 gN      = -2.7120e7;        % 15N gyromagnetic ratio [ T-1 s-1]
 hbar    = 1.0546e-34;       % Planck's constant over 2*pi [J s ]
 CSAN    = -172e-6;          % 15N chemical shift anisotropy [ppm]
-CSAH    = 10e-6;             % 1H  chemical shift anisotropy [ppm]  (10 ppm seems to be bit large just as effective as 15N ccr?)
+CSAH    = 10e-6;            % 1H  chemical shift anisotropy [ppm]  (10 ppm seems to be bit large just as effective as 15N ccr?)
 rNH     = 1.02e-10;         % distance N-H [A]
 rHH     = 1.85e-10;         % 1HN - 1Halpha distance [A] (effective value see Jiang paper)
                             % 2.25 A corresponds to 13.7 / 17.1 inphase/antiphase which similar as for  Kay style relaxation

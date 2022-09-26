@@ -24,12 +24,6 @@ Zuiderweg(:,:,3)  = pNx180p_cw;
 Zuiderweg(:,:,4)  = pNx180m_cw;                                      % define 3D array corresponding to Zuiderweg phase cycle
 Zuidertext = cellstr(["+y";"+y";"+x";"-x"]);
 
-% test effect of XY phasecycle on slow pulsing artifact
-%Zuidertext = cellstr(["+y";"+y";"+y";"+y"]);
-%Zuiderweg(:,:,3)  = pNy180p_cw;
-%Zuiderweg(:,:,4)  = pNy180p_cw;    
-%NO EFFECT, slow pulsing artifact is still larger than in Flemming's version
-
 pHx180    = expm(LVM(offset, pi*JNH, gB1_H*[1 0  0 0], relaxRates)*pi/(gB1_H));     % 180 x on H, used in spin-echo on reference
 
 gB1_cw = gB1_H;

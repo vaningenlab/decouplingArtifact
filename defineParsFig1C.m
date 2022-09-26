@@ -15,14 +15,13 @@ cycle_phi7          = 1;    % [0|1] do phase cycling on ST-CW numPulses =2 CPMG 
 % spin system
 JNH     = -92;            % 1JNH [Hz]
 wNppm   = 0;              % 15N offset in ppm wrt to 15N carrier, best keep offset at zero.
-%wHppm   = [1.5 3];              % 1H offset in ppm wrt to 1H CW carrier, this needs to be varied to investigate the effect
-wHppm   = [1.0 2];              % 1H offset in ppm wrt to 1H CW carrier, this needs to be varied to investigate the effect
+wHppm   = [1.0 2.0];      % 1H offset in ppm wrt to 1H CW carrier, this needs to be varied to investigate the effect
 
 % experimental set-up
 pw_cpmg = 45;                                                   % 15N 90° pulse length CPMG
 pw_90   = 30;                                                   % 15N 90 high power for excite Nz to Ny and for bringing back to Nz
 pw_dec  = 17;                                                   % 1H 90° decoupling pulse, this needs to be varied to study the effect
-B0      = B0array(bb)/600*14.0921;                                               % static magnetic field corresponding to 800 MHz [T]
+B0      = B0array(bb)/600*14.0921;                              % static magnetic field corresponding to 800 MHz [T]
                                                                 % 500: 11.7434 600: 14.0921 750: 800: 18.789 850: 19.964 950: 22.31 1.2GHz: 28.184
 time_T2 = 0.04;                                                 % length of CT CPMG relaxation period [s]
 maxCPMG = 1000;                                                 % maximum CPMG field [Hz]
