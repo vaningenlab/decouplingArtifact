@@ -13,9 +13,9 @@ I put them now on Github so that anyone can make us of it.
 # How to use
 
 1. Install GNU Octave from  
-	a. *Windows users* [octave.org](https://octave.org)  
-	b. *Mac users* [octave-app.org](https://octave-app.org)  
-	c. *Linux users* using your package manager  
+	a. *Windows:* [octave.org](https://octave.org)  
+	b. *Mac:* [octave-app.org](https://octave-app.org)  
+	c. *Linux:* using your package manager  
 
 2. Download the simulations scripts 
 
