@@ -34,9 +34,9 @@ The simulations are based on numerical evalation of the density operator for a 2
 as described in the Allard et al [1998 JMR paper](https://doi.org/10.1006/jmre.1998.1509) with calculation of relaxation rates as described in the Helgstrand et al [2000 JBNMR paper](https://doi.org/10.1023/A:1008309220156).
 The simulations do not include the effect of exchange.  
 
-+   simFigure1A    *main script to simulate the results shown in Figure 1A*.
-    *comparison of matched 1H CW decoupling and single 1H power value, single train decoupling*
-+   simFigure1B    *main script to simulate the results shown in Figure 1B*  
++   simFigure1A | *main script to simulate the results shown in Figure 1A*.
+    | *comparison of matched 1H CW decoupling and single 1H power value, single train decoupling*.
++   simFigure1B    *main script to simulate the results shown in Figure 1B*.
     *predicted maximum artifact as function of protein size*
 + simFigure1B    *main script to simulate the results shown in Figure 1C*  
                    *predicted maximum artifact as function of magnetic field*
