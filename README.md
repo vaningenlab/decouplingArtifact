@@ -54,7 +54,7 @@ The simulations do not include the effect of exchange.
   | *as decribed in [Hansen et al 2008 JPC paper](https://doi.org/10.1021/jp074793o)*.
 + CPMG_CW_fixed | *as CPMG_CW but with fixed 1H power for decoupling*.
 + CPMG_ST_CW | *in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CW decoupling*
-  | *as decribed in [Jiang et al 2008 JMR paper](https:dx.doi.org/10.1016/j.jmr.2015.05.003)*.
+  | *as decribed in [Jiang et al 2008 JMR paper](https://dx.doi.org/10.1016/j.jmr.2015.05.003)*.
 + CPMG_ST_CPD | *in-phase single-train 15N CPMG dispersion experiment w/ constant 1H CDP decoupling*
   | *as decribed in Chatterjee et al 2018 paper*
   | *CPD can be set to CW, 90-240-90, WALTZ, MLEV, SPA*.
